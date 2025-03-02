@@ -1,4 +1,3 @@
-/* eslint-disable node/prefer-global/process */
 import { createStorage } from 'unstorage'
 import fsDriver from 'unstorage/drivers/fs'
 
