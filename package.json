@@ -23,6 +23,7 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-use": "^17.6.0",
+    "unstorage": "^1.15.0",
     "wagmi": "^2.14.12"
   },
   "devDependencies": {
@@ -34,6 +35,7 @@
     "@types/react-dom": "^18.3.5",
     "@unocss/eslint-plugin": "^65.5.0",
     "@unocss/postcss": "latest",
+    "esbuild-register": "^3.6.0",
     "eslint": "^9.21.0",
     "eslint-plugin-format": "^1.0.1",
     "eslint-plugin-react-hooks": "^5.1.0",

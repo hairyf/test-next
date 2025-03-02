@@ -1,7 +1,7 @@
-import { defineConfig, presetAttributify, presetIcons, presetUno } from 'unocss'
 import FileSystemSvgoLoader from 'iconify-svgo-loader'
+import { defineConfig, presetAttributify, presetIcons, presetUno } from 'unocss'
 
-const localIconfontLoader = FileSystemSvgoLoader('./assets/iconfonts')
+// const localIconfontLoader = FileSystemSvgoLoader('./assets/iconfonts')
 
 const config = defineConfig({
   presets: [
@@ -9,7 +9,7 @@ const config = defineConfig({
     presetAttributify(),
     presetIcons({
       collections: {
-        custom: localIconfontLoader,
+        // custom: localIconfontLoader,
       },
     }),
   ],

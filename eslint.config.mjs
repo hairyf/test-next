@@ -7,5 +7,6 @@ export default antfu({
   rules: {
     'react-dom/no-missing-button-type': 'off',
     'react/prefer-destructuring-assignment': 'off',
+    'node/prefer-global/process': 'off',
   },
 })
